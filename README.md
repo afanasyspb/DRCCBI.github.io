@@ -16,7 +16,7 @@ This research focuses on developing a method for restoring the topology of digit
 
 Keywords: Document Image Dewarping, Image Distortions, Geometry Restoration 
 
-![teaser](public/assets/methodology.png)
+![teaser](assets/methodology.png)
 
 The flowchart of the document geometry restoration and dewarping algorithm: 
   1) Identifying the document mask using the YOLOv8 model; 
@@ -24,7 +24,7 @@ The flowchart of the document geometry restoration and dewarping algorithm:
   3) Creating a 2D grid of the document by interpolating its opposite sides with evenly spaced curved lines, approximating each line with a cubic polynomial; 
   4) Detecting the intersection points of the curved lines, constructing the resulting grid for image transformation, and creating a transformation map based on the 2D points, followed by remapping the original image.
 
-![teaser](public/assets/comparison.jpg)
+![teaser](assets/comparison.jpg)
 
 The comparison of documents reconstructed by popular desktop DL models - DocTr++, DocGeoNet, RectiNet and our algorithm.
 
